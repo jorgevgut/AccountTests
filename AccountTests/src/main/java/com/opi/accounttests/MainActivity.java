@@ -38,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
                     .commit();
         }
 
-        mAccount = CreateSyncAccount(this);
+//        mAccount = CreateSyncAccount(this);
         Intent i = new Intent(this,AAuthActivity.class);
         startActivity(i);
     }
